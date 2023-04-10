@@ -1,0 +1,58 @@
+@media (min-width:320px) and (max-width:480px) {
+    .box {
+        width: 100%;
+        background-color: red;
+    }
+    .wraper {
+        gap:30px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    /* practice figma */
+    .flex-wraper {
+        flex-direction: column;
+    }
+    .right-block-child:nth-child(2),
+    .right-block-child:nth-child(3) {
+        display: none;
+    }
+    .right-block {
+        margin-top: 36px;
+    }
+    .right-block {
+        width: 100%;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .box {
+        width:45%;
+        background-color: blueviolet;
+    }
+    .wraper {
+        gap:30px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:481px) and (max-width:834px) {
+    /* practice figma */
+    .flex-wraper {
+        flex-direction: column;
+    }
+    .right-block-child:nth-child(3) {
+        display: none;
+    }
+    .right-block {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .right-block-child {
+        width: 48%;
+    }
+}
